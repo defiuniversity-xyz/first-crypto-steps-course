@@ -7,6 +7,7 @@ description: "Understanding the difference between leaving crypto on exchanges a
 ---
 
 # Exchange Wallets vs Your Own
+
 ![Header](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_04/first-crypto-steps_04_header.png)
 
 

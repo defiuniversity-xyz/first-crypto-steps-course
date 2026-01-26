@@ -7,6 +7,7 @@ description: "Step-by-step guide to sending cryptocurrency safely"
 ---
 
 # Your First Send Transaction
+
 ![Header](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_08/first-crypto-steps_08_header.png)
 
 

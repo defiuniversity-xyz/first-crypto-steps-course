@@ -7,6 +7,7 @@ description: "How to properly backup your crypto wallet to prevent permanent los
 ---
 
 # Backing Up Your Wallet
+
 ![Header](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_11/first-crypto-steps_11_header.png)
 
 

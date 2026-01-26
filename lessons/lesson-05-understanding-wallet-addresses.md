@@ -7,6 +7,7 @@ description: "How to use and verify crypto addresses when sending or receiving"
 ---
 
 # Understanding Wallet Addresses
+
 ![Header](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_05/first-crypto-steps_05_header.png)
 
 

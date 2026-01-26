@@ -7,6 +7,7 @@ description: "Understanding the platforms where you can buy and sell cryptocurre
 ---
 
 # What is a Crypto Exchange?
+
 ![Header](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_01/first-crypto-steps_01_header.png)
 
 
@@ -18,6 +19,7 @@ description: "Understanding the platforms where you can buy and sell cryptocurre
 
 
 ![Inline Analogy](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_01/first-crypto-steps_01_inline_analogy.png)
+
 You're traveling from the US to Japan. At the airport, you find a currency exchange booth:
 
 - You hand them US dollars
@@ -56,6 +58,7 @@ Exchanges provide several services:
 
 
 ![Infographic](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_01/first-crypto-steps_01_infographic.png)
+
 Two types of exchanges exist:
 
 ### Centralized Exchanges (CEX)

@@ -7,6 +7,7 @@ description: "Choosing between convenient connected wallets and secure offline s
 ---
 
 # Hot Wallets vs Cold Wallets
+
 ![Header](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_09/first-crypto-steps_09_header.png)
 
 

@@ -7,6 +7,7 @@ description: "Understanding why exchanges ask for your identity and what to expe
 ---
 
 # Getting Verified (KYC)
+
 ![Header](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_02/first-crypto-steps_02_header.png)
 
 

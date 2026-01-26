@@ -7,6 +7,7 @@ description: "Understanding transaction fees on blockchain networks"
 ---
 
 # What Are Gas Fees?
+
 ![Header](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_07/first-crypto-steps_07_header.png)
 
 

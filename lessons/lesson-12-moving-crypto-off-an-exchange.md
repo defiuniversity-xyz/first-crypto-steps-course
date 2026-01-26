@@ -7,6 +7,7 @@ description: "How to withdraw cryptocurrency from an exchange to your own wallet
 ---
 
 # Moving Crypto Off an Exchange
+
 ![Header](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_12/first-crypto-steps_12_header.png)
 
 

@@ -7,6 +7,7 @@ description: "Step-by-step guide to creating your first self-custody wallet"
 ---
 
 # Setting Up Your Own Wallet
+
 ![Header](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_10/first-crypto-steps_10_header.png)
 
 
