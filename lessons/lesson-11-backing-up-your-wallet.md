@@ -1,11 +1,3 @@
----
-course: first-crypto-steps
-module: 3
-lesson: 11
-title: "Backing Up Your Wallet"
-description: "How to properly backup your crypto wallet to prevent permanent loss"
----
-
 # Backing Up Your Wallet
 
 ![Header](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_11/first-crypto-steps_11_header.png)

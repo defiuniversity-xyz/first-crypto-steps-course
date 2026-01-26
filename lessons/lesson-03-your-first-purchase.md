@@ -1,11 +1,3 @@
----
-course: first-crypto-steps
-module: 1
-lesson: 3
-title: "Your First Purchase"
-description: "A step-by-step guide to buying your first cryptocurrency"
----
-
 # Your First Purchase
 
 ![Header](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_03/first-crypto-steps_03_header.png)

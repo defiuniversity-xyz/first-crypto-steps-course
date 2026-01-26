@@ -1,11 +1,3 @@
----
-course: first-crypto-steps
-module: 3
-lesson: 9
-title: "Hot Wallets vs Cold Wallets"
-description: "Choosing between convenient connected wallets and secure offline storage"
----
-
 # Hot Wallets vs Cold Wallets
 
 ![Header](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_09/first-crypto-steps_09_header.png)

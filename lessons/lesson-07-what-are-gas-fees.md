@@ -1,11 +1,3 @@
----
-course: first-crypto-steps
-module: 2
-lesson: 7
-title: "What Are Gas Fees?"
-description: "Understanding transaction fees on blockchain networks"
----
-
 # What Are Gas Fees?
 
 ![Header](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_07/first-crypto-steps_07_header.png)

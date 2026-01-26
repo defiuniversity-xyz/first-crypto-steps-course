@@ -1,11 +1,3 @@
----
-course: first-crypto-steps
-module: 3
-lesson: 10
-title: "Setting Up Your Own Wallet"
-description: "Step-by-step guide to creating your first self-custody wallet"
----
-
 # Setting Up Your Own Wallet
 
 ![Header](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_10/first-crypto-steps_10_header.png)

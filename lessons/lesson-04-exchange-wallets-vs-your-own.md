@@ -1,11 +1,3 @@
----
-course: first-crypto-steps
-module: 1
-lesson: 4
-title: "Exchange Wallets vs Your Own"
-description: "Understanding the difference between leaving crypto on exchanges and self-custody"
----
-
 # Exchange Wallets vs Your Own
 
 ![Header](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_04/first-crypto-steps_04_header.png)

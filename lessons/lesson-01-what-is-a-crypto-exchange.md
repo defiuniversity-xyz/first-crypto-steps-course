@@ -1,11 +1,3 @@
----
-course: first-crypto-steps
-module: 1
-lesson: 1
-title: "What is a Crypto Exchange?"
-description: "Understanding the platforms where you can buy and sell cryptocurrency"
----
-
 # What is a Crypto Exchange?
 
 ![Header](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_01/first-crypto-steps_01_header.png)

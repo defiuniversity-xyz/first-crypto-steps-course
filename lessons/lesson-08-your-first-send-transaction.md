@@ -1,11 +1,3 @@
----
-course: first-crypto-steps
-module: 2
-lesson: 8
-title: "Your First Send Transaction"
-description: "Step-by-step guide to sending cryptocurrency safely"
----
-
 # Your First Send Transaction
 
 ![Header](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_08/first-crypto-steps_08_header.png)

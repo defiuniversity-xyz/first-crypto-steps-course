@@ -1,11 +1,3 @@
----
-course: first-crypto-steps
-module: 2
-lesson: 6
-title: "Network Selection Matters"
-description: "Understanding why choosing the right blockchain network is critical"
----
-
 # Network Selection Matters
 
 ![Header](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_06/first-crypto-steps_06_header.png)
