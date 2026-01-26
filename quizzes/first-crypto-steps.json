@@ -1,0 +1,579 @@
+{
+  "courseId": "first-crypto-steps",
+  "courseName": "Your First Crypto Steps",
+  "modules": [
+    {
+      "moduleId": "module-01",
+      "moduleNumber": 1,
+      "title": "Buying Your First Crypto",
+      "description": "Understanding exchanges, fiat on-ramps, and the verification process",
+      "passingScore": 70,
+      "pointsBase": 100,
+      "pointsPerfect": 50,
+      "questions": [
+        {
+          "id": "m1-q1",
+          "question": "What is a cryptocurrency exchange?",
+          "options": [
+            {"id": "a", "text": "A place to trade in old cryptocurrencies for new ones"},
+            {"id": "b", "text": "A platform where you can buy and sell cryptocurrencies, often using regular money"},
+            {"id": "c", "text": "A government office that regulates crypto"},
+            {"id": "d", "text": "A physical store that sells crypto hardware"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Crypto exchanges are like digital marketplaces where you can trade regular money (dollars, euros) for cryptocurrency, or trade one crypto for another. Think of it as a currency exchange booth, but for crypto."
+        },
+        {
+          "id": "m1-q2",
+          "question": "What is a 'fiat on-ramp'?",
+          "options": [
+            {"id": "a", "text": "A highway for Fiat cars"},
+            {"id": "b", "text": "A way to convert regular money (fiat currency) into cryptocurrency"},
+            {"id": "c", "text": "A type of Italian cryptocurrency"},
+            {"id": "d", "text": "A ramp for wheelchair access at crypto offices"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "'Fiat' means government-issued money like dollars or euros. An 'on-ramp' is your entry point - a way to convert that regular money into crypto. Exchanges, crypto apps, and even some ATMs serve as on-ramps."
+        },
+        {
+          "id": "m1-q3",
+          "question": "Why do most cryptocurrency exchanges ask for your ID and personal information?",
+          "options": [
+            {"id": "a", "text": "They're curious about their customers"},
+            {"id": "b", "text": "Legal requirements (KYC/AML) to prevent money laundering and fraud"},
+            {"id": "c", "text": "To sell your data to advertisers"},
+            {"id": "d", "text": "It's optional - you can skip this step"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "KYC (Know Your Customer) and AML (Anti-Money Laundering) regulations require exchanges to verify your identity. It's the law in most countries. This helps prevent criminal activity but means you give up some privacy."
+        },
+        {
+          "id": "m1-q4",
+          "question": "What's the difference between a centralized exchange (CEX) and a decentralized exchange (DEX)?",
+          "options": [
+            {"id": "a", "text": "CEX is for beginners, DEX is for experts only"},
+            {"id": "b", "text": "CEX is a company that holds your funds; DEX lets you trade directly from your own wallet"},
+            {"id": "c", "text": "CEX is free, DEX charges fees"},
+            {"id": "d", "text": "There is no difference"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Centralized exchanges (Coinbase, Kraken) are companies that custody your funds - convenient but you trust them. Decentralized exchanges let you trade directly from your wallet - more control but more complexity."
+        },
+        {
+          "id": "m1-q5",
+          "question": "When you buy crypto on an exchange but don't move it to your own wallet, who controls those funds?",
+          "options": [
+            {"id": "a", "text": "You control them completely"},
+            {"id": "b", "text": "The exchange controls them - you have an IOU"},
+            {"id": "c", "text": "The government controls them"},
+            {"id": "d", "text": "No one controls them"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "When crypto sits on an exchange, the exchange holds the actual keys. Your account balance is their promise to give you that crypto. If the exchange is hacked or goes bankrupt, you might lose access."
+        },
+        {
+          "id": "m1-q6",
+          "question": "What payment methods can typically be used to buy crypto on an exchange?",
+          "options": [
+            {"id": "a", "text": "Only bank transfers"},
+            {"id": "b", "text": "Bank transfers, debit cards, credit cards, and sometimes payment apps"},
+            {"id": "c", "text": "Only cryptocurrency"},
+            {"id": "d", "text": "Only cash in person"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Most exchanges accept various payment methods. Bank transfers are usually cheapest but slowest. Debit/credit cards are fast but often have higher fees. Available methods vary by exchange and country."
+        },
+        {
+          "id": "m1-q7",
+          "question": "Why might buying crypto with a credit card cost more than a bank transfer?",
+          "options": [
+            {"id": "a", "text": "Credit cards are fancier"},
+            {"id": "b", "text": "Credit card companies charge fees, and exchanges pass those costs to you"},
+            {"id": "c", "text": "Bank transfers don't actually work"},
+            {"id": "d", "text": "Credit cards give you more crypto"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Credit card transactions typically cost merchants 2-3% in fees, and these are passed to you. Bank transfers (ACH/wire) are cheaper for the exchange. Convenience costs extra."
+        },
+        {
+          "id": "m1-q8",
+          "question": "What is a 'limit order' when buying crypto?",
+          "options": [
+            {"id": "a", "text": "An order with a maximum spending limit"},
+            {"id": "b", "text": "An order to buy at a specific price you set, which only executes if the market reaches that price"},
+            {"id": "c", "text": "A limited-time special offer"},
+            {"id": "d", "text": "An order that can only be placed once per day"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "A limit order lets you say 'I want to buy Bitcoin, but only if the price drops to $X.' Your order waits until the market hits your price. Great for getting a specific price, but might never fill if the price doesn't reach it."
+        },
+        {
+          "id": "m1-q9",
+          "question": "What is a 'market order'?",
+          "options": [
+            {"id": "a", "text": "An order to visit a market"},
+            {"id": "b", "text": "An order to buy or sell immediately at the current market price"},
+            {"id": "c", "text": "An order only available at certain market hours"},
+            {"id": "d", "text": "A large wholesale order"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "A market order executes immediately at whatever the current price is. You're saying 'I want to buy now, at whatever price is available.' Fast but you might pay slightly more or less than expected."
+        },
+        {
+          "id": "m1-q10",
+          "question": "What is the 'spread' you might see when buying crypto?",
+          "options": [
+            {"id": "a", "text": "A type of crypto investment strategy"},
+            {"id": "b", "text": "The difference between the buying price and selling price"},
+            {"id": "c", "text": "A spreadsheet for tracking crypto"},
+            {"id": "d", "text": "The coverage area of a crypto network"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "The spread is the gap between what buyers will pay (bid) and what sellers want (ask). If Bitcoin's buy price is $50,010 and sell price is $50,000, the spread is $10. This is one way exchanges make money."
+        },
+        {
+          "id": "m1-q11",
+          "question": "Why should beginners consider starting with a small amount when first buying crypto?",
+          "options": [
+            {"id": "a", "text": "Small amounts are more valuable"},
+            {"id": "b", "text": "To learn how it works and understand the risks without risking too much"},
+            {"id": "c", "text": "Large amounts are illegal"},
+            {"id": "d", "text": "Exchanges don't accept large amounts"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Starting small lets you make beginner mistakes cheaply. Learn how transactions work, how fees affect you, and how price changes feel before committing significant money. Crypto can be volatile - don't risk what you can't afford to lose."
+        },
+        {
+          "id": "m1-q12",
+          "question": "What's the first thing you should do after creating an exchange account?",
+          "options": [
+            {"id": "a", "text": "Buy as much crypto as possible"},
+            {"id": "b", "text": "Enable two-factor authentication (2FA) for security"},
+            {"id": "c", "text": "Share your login with friends"},
+            {"id": "d", "text": "Delete the app and reinstall"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Security first! Enable 2FA immediately - this requires a second verification step (usually a phone app) when logging in. It makes your account much harder to hack even if someone learns your password."
+        },
+        {
+          "id": "m1-q13",
+          "question": "What does 'verification pending' usually mean on an exchange?",
+          "options": [
+            {"id": "a", "text": "Your crypto purchase is being verified"},
+            {"id": "b", "text": "The exchange is reviewing your identity documents before allowing full access"},
+            {"id": "c", "text": "Your password needs to be verified"},
+            {"id": "d", "text": "The crypto network is verifying your wallet"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Exchanges review your ID documents to comply with regulations. This can take hours to days depending on the exchange and demand. Until verified, you may have limited features or buying limits."
+        },
+        {
+          "id": "m1-q14",
+          "question": "What is Dollar Cost Averaging (DCA)?",
+          "options": [
+            {"id": "a", "text": "Converting your crypto to dollars"},
+            {"id": "b", "text": "Buying a fixed amount at regular intervals, regardless of price"},
+            {"id": "c", "text": "Calculating the average dollar value of your crypto"},
+            {"id": "d", "text": "A special discount for buying in dollars"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "DCA means buying $50 of Bitcoin every week (for example), regardless of whether the price is up or down. Over time, you average out the price fluctuations. It removes the stress of trying to 'time the market.'"
+        },
+        {
+          "id": "m1-q15",
+          "question": "How can you check if a crypto exchange is legitimate?",
+          "options": [
+            {"id": "a", "text": "If it appears in Google search, it's legitimate"},
+            {"id": "b", "text": "Research its reputation, check for regulatory licenses, read user reviews, verify the URL"},
+            {"id": "c", "text": "All crypto exchanges are legitimate"},
+            {"id": "d", "text": "Ask on social media - people always give honest answers"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Before depositing money, research the exchange. Check if it's regulated in your country, read reviews from multiple sources, verify you're on the real website (not a phishing copy), and start small. Many scam exchanges exist."
+        }
+      ]
+    },
+    {
+      "moduleId": "module-02",
+      "moduleNumber": 2,
+      "title": "Sending and Receiving",
+      "description": "Understanding addresses, networks, confirmation times, and gas fees",
+      "passingScore": 70,
+      "pointsBase": 100,
+      "pointsPerfect": 50,
+      "questions": [
+        {
+          "id": "m2-q1",
+          "question": "What does a cryptocurrency address look like?",
+          "options": [
+            {"id": "a", "text": "A street address like '123 Bitcoin Street'"},
+            {"id": "b", "text": "A long string of letters and numbers like '0x7E5F4552091A69125d5DfCb7b8C2659029395Bdf'"},
+            {"id": "c", "text": "An email address like 'wallet@bitcoin.com'"},
+            {"id": "d", "text": "A phone number"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Crypto addresses are long strings of characters that look random but are mathematically generated from your keys. Different cryptocurrencies have different address formats. Always copy-paste - don't try to type them manually."
+        },
+        {
+          "id": "m2-q2",
+          "question": "What happens if you send Bitcoin to an Ethereum address?",
+          "options": [
+            {"id": "a", "text": "It converts automatically"},
+            {"id": "b", "text": "The transaction fails or the crypto is lost forever - they're incompatible"},
+            {"id": "c", "text": "You receive Ethereum instead"},
+            {"id": "d", "text": "The exchange fixes it for you"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Different cryptocurrencies have different networks. Sending crypto to the wrong network type is like sending a letter to an address in the wrong country with the wrong postal system. It won't arrive or may be lost."
+        },
+        {
+          "id": "m2-q3",
+          "question": "What is a 'network' in the context of sending crypto?",
+          "options": [
+            {"id": "a", "text": "Your internet connection"},
+            {"id": "b", "text": "The blockchain system that processes and records the transaction"},
+            {"id": "c", "text": "A social network for crypto traders"},
+            {"id": "d", "text": "A group of exchanges"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "When you send crypto, you must choose the correct network. Ethereum can be sent on Ethereum mainnet, Arbitrum, Polygon, etc. Using the wrong network means your crypto goes to the wrong place, potentially lost."
+        },
+        {
+          "id": "m2-q4",
+          "question": "What is a 'confirmation' in crypto transactions?",
+          "options": [
+            {"id": "a", "text": "An email confirming your order"},
+            {"id": "b", "text": "Each time a new block is added after your transaction, making it more secure"},
+            {"id": "c", "text": "Confirming your password"},
+            {"id": "d", "text": "A receipt from the store"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "When your transaction is included in a block, that's one confirmation. Each subsequent block adds another confirmation. More confirmations = more secure. For small amounts, 1-3 confirmations is often enough."
+        },
+        {
+          "id": "m2-q5",
+          "question": "Why does Bitcoin sometimes take 30-60 minutes to confirm?",
+          "options": [
+            {"id": "a", "text": "Because it's old technology"},
+            {"id": "b", "text": "Bitcoin blocks are mined approximately every 10 minutes, and multiple confirmations may be needed"},
+            {"id": "c", "text": "The network is always congested"},
+            {"id": "d", "text": "It's actually instant"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Bitcoin adds a new block about every 10 minutes. For security, services often wait for multiple confirmations (3-6 blocks = 30-60 minutes). Newer cryptocurrencies may have faster block times."
+        },
+        {
+          "id": "m2-q6",
+          "question": "What is a 'gas fee' or 'transaction fee'?",
+          "options": [
+            {"id": "a", "text": "A fee for using electricity"},
+            {"id": "b", "text": "A payment to the network for processing your transaction"},
+            {"id": "c", "text": "A fee charged by your wallet app"},
+            {"id": "d", "text": "A tax on crypto transactions"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Gas fees pay the people (miners/validators) who process and verify your transaction. It's like paying postage for a letter. Higher fees usually mean faster processing, as your transaction becomes more attractive to include."
+        },
+        {
+          "id": "m2-q7",
+          "question": "Why do gas fees sometimes spike to very high amounts?",
+          "options": [
+            {"id": "a", "text": "Exchanges are being greedy"},
+            {"id": "b", "text": "When many people want to transact at once, they compete by paying higher fees"},
+            {"id": "c", "text": "Gas prices are controlled by governments"},
+            {"id": "d", "text": "Fees are random"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Block space is limited. When demand is high (during NFT drops, market crashes), people outbid each other for space in the next block. This auction mechanism causes fee spikes. Low priority? Wait for calmer times."
+        },
+        {
+          "id": "m2-q8",
+          "question": "Before sending crypto, what should you always check first?",
+          "options": [
+            {"id": "a", "text": "Only the amount"},
+            {"id": "b", "text": "The recipient address, the network, and the total amount including fees"},
+            {"id": "c", "text": "Only the network"},
+            {"id": "d", "text": "Nothing - just send it"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Triple-check: (1) Is the address exactly correct? (2) Is it the right network? (3) Are you sending the right amount? (4) Can you afford the fee? Mistakes are permanent in crypto. Take your time."
+        },
+        {
+          "id": "m2-q9",
+          "question": "What is a QR code used for in crypto?",
+          "options": [
+            {"id": "a", "text": "Decoration"},
+            {"id": "b", "text": "A scannable image containing a wallet address, reducing typing errors"},
+            {"id": "c", "text": "A secret password"},
+            {"id": "d", "text": "A receipt after transaction"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "QR codes encode your address as a scannable image. Instead of copying/pasting a long string of characters (risking errors), you can scan the code. Many mobile wallets support this for convenience and accuracy."
+        },
+        {
+          "id": "m2-q10",
+          "question": "What does 'pending' status mean for a crypto transaction?",
+          "options": [
+            {"id": "a", "text": "The transaction failed"},
+            {"id": "b", "text": "The transaction is submitted but not yet confirmed in a block"},
+            {"id": "c", "text": "You need to approve it again"},
+            {"id": "d", "text": "The recipient rejected it"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Pending means your transaction is in the 'waiting room' (mempool), waiting to be picked up by miners/validators and included in a block. Depending on network congestion and your fee, this could take minutes to hours."
+        },
+        {
+          "id": "m2-q11",
+          "question": "What is a 'block explorer'?",
+          "options": [
+            {"id": "a", "text": "A video game"},
+            {"id": "b", "text": "A website where you can search and view all transactions on a blockchain"},
+            {"id": "c", "text": "A type of wallet"},
+            {"id": "d", "text": "Software for mining blocks"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Block explorers (like Etherscan for Ethereum) let you look up any transaction, address, or block on the blockchain. You can verify your transaction went through, check someone's address, or explore network activity."
+        },
+        {
+          "id": "m2-q12",
+          "question": "Why might the same cryptocurrency have different addresses on different exchanges?",
+          "options": [
+            {"id": "a", "text": "Exchanges use their own currencies"},
+            {"id": "b", "text": "Each exchange generates unique deposit addresses for each user to credit your account"},
+            {"id": "c", "text": "Addresses change daily"},
+            {"id": "d", "text": "They're using different cryptocurrencies"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "When you deposit to an exchange, they give you a unique address. This lets them know which user sent the funds. Your Coinbase BTC address will be different from your Kraken BTC address - both go to your respective accounts."
+        },
+        {
+          "id": "m2-q13",
+          "question": "What is a 'memo' or 'tag' sometimes required when sending crypto?",
+          "options": [
+            {"id": "a", "text": "A personal note to the recipient"},
+            {"id": "b", "text": "An extra identifier needed by some networks/exchanges to credit your specific account"},
+            {"id": "c", "text": "A discount code"},
+            {"id": "d", "text": "Optional decoration for your transaction"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Some cryptocurrencies (like XRP, XLM) use a single address for many users plus a memo/tag to identify you. Forget the memo? The exchange may not know it's yours, and your crypto could be lost or require support to recover."
+        },
+        {
+          "id": "m2-q14",
+          "question": "After sending crypto, how can you verify the transaction succeeded?",
+          "options": [
+            {"id": "a", "text": "Just assume it worked"},
+            {"id": "b", "text": "Look up the transaction ID (hash) on a block explorer or check your wallet balance"},
+            {"id": "c", "text": "Call the crypto company"},
+            {"id": "d", "text": "You receive an email confirmation"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Every transaction gets a unique transaction ID (hash). Paste this into a block explorer to see its status: pending, confirmed, or failed. You can also check your wallet balance, but the explorer shows more detail."
+        },
+        {
+          "id": "m2-q15",
+          "question": "Can someone reverse a crypto transaction if you made a mistake?",
+          "options": [
+            {"id": "a", "text": "Yes, customer support can reverse it"},
+            {"id": "b", "text": "No, confirmed transactions are permanent - this is a feature, not a bug"},
+            {"id": "c", "text": "Yes, within 24 hours"},
+            {"id": "d", "text": "Yes, if you pay an extra fee"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Blockchain immutability means transactions can't be reversed. This prevents chargebacks and fraud, but also means mistakes are permanent. The recipient could voluntarily send it back, but there's no forcing them."
+        }
+      ]
+    },
+    {
+      "moduleId": "module-03",
+      "moduleNumber": 3,
+      "title": "Storage Options",
+      "description": "Hot wallets vs cold wallets and security best practices",
+      "passingScore": 70,
+      "pointsBase": 100,
+      "pointsPerfect": 50,
+      "questions": [
+        {
+          "id": "m3-q1",
+          "question": "What's the main trade-off between hot wallets and cold wallets?",
+          "options": [
+            {"id": "a", "text": "Hot wallets are free, cold wallets cost money"},
+            {"id": "b", "text": "Hot wallets are convenient but less secure; cold wallets are more secure but less convenient"},
+            {"id": "c", "text": "Hot wallets work faster, cold wallets work slower"},
+            {"id": "d", "text": "There's no meaningful difference"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Hot wallets (phone apps, browser extensions) are connected to the internet - easy to use but hackable. Cold wallets (hardware devices) stay offline - very secure but require extra steps. Choose based on your needs and amounts."
+        },
+        {
+          "id": "m3-q2",
+          "question": "Which storage option is best for crypto you plan to trade frequently?",
+          "options": [
+            {"id": "a", "text": "Cold storage hardware wallet"},
+            {"id": "b", "text": "Hot wallet or exchange for convenience, with amounts you can afford to lose"},
+            {"id": "c", "text": "Paper wallet"},
+            {"id": "d", "text": "Store it in a text file"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "For frequent trading, hot wallets or exchanges offer the convenience you need. Just don't keep large amounts there - only what you actively trade. Think of it like a spending wallet versus a savings account."
+        },
+        {
+          "id": "m3-q3",
+          "question": "What is a hardware wallet?",
+          "options": [
+            {"id": "a", "text": "A wallet app on your computer"},
+            {"id": "b", "text": "A physical device that stores your private keys offline, away from hackers"},
+            {"id": "c", "text": "A wallet made of metal"},
+            {"id": "d", "text": "A special hard drive for storing crypto files"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Hardware wallets (like Ledger, Trezor) are physical devices that keep your keys completely offline. You connect them only when making transactions, then disconnect. Even if your computer is hacked, your keys stay safe."
+        },
+        {
+          "id": "m3-q4",
+          "question": "Why should you never buy a hardware wallet from unofficial sources (like eBay or random Amazon sellers)?",
+          "options": [
+            {"id": "a", "text": "They're more expensive"},
+            {"id": "b", "text": "It might be tampered with or pre-loaded with a compromised seed phrase"},
+            {"id": "c", "text": "The warranty won't work"},
+            {"id": "d", "text": "They're older models"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Scammers sell tampered devices with seed phrases they already know. When you load crypto onto it, they steal everything. Always buy directly from the manufacturer or authorized retailers. Check seals and packaging."
+        },
+        {
+          "id": "m3-q5",
+          "question": "What is a 'software wallet' or 'mobile wallet'?",
+          "options": [
+            {"id": "a", "text": "A wallet that only software developers can use"},
+            {"id": "b", "text": "An app on your phone or computer that stores your keys and lets you manage crypto"},
+            {"id": "c", "text": "A wallet for buying software"},
+            {"id": "d", "text": "A wallet that doesn't require software"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Software wallets are apps like MetaMask, Trust Wallet, or Exodus. They're free, convenient, and run on your device. Your keys are stored on that device, so device security is crucial - they're only as safe as your phone/computer."
+        },
+        {
+          "id": "m3-q6",
+          "question": "What is a 'browser extension wallet' like MetaMask?",
+          "options": [
+            {"id": "a", "text": "A wallet built into web browsers by default"},
+            {"id": "b", "text": "A wallet that runs in your browser, convenient for interacting with websites and apps"},
+            {"id": "c", "text": "A wallet that only works on one browser"},
+            {"id": "d", "text": "A read-only wallet for viewing balances"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Browser extension wallets let you interact with blockchain apps directly from your browser. Click a button on a website, and your wallet pops up to approve the transaction. Very convenient for exploring DeFi and Web3."
+        },
+        {
+          "id": "m3-q7",
+          "question": "What's the safest way to store your seed phrase backup?",
+          "options": [
+            {"id": "a", "text": "Screenshot on your phone"},
+            {"id": "b", "text": "Written on paper or metal, stored in a secure physical location"},
+            {"id": "c", "text": "Saved in cloud storage for backup"},
+            {"id": "d", "text": "Emailed to yourself"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Physical, offline storage is safest. Write it on paper or stamp it into metal (survives fire/water). Store in a safe, safety deposit box, or hidden secure location. Digital storage can be hacked; physical storage cannot be remotely stolen."
+        },
+        {
+          "id": "m3-q8",
+          "question": "Why might someone use multiple wallets?",
+          "options": [
+            {"id": "a", "text": "It's required by law"},
+            {"id": "b", "text": "To separate funds by purpose - spending, savings, different networks, or to limit risk"},
+            {"id": "c", "text": "To get more free crypto"},
+            {"id": "d", "text": "Multiple wallets give you more crypto"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Just like having checking and savings accounts, you might use different wallets for different purposes: a hot wallet for daily use, cold storage for savings, separate wallets for different blockchains, or to isolate risky activities."
+        },
+        {
+          "id": "m3-q9",
+          "question": "If your hot wallet on your phone is compromised, what happens to crypto stored in your separate hardware wallet?",
+          "options": [
+            {"id": "a", "text": "All your crypto is stolen"},
+            {"id": "b", "text": "Only the hot wallet funds are at risk; the hardware wallet remains safe"},
+            {"id": "c", "text": "Everything gets frozen"},
+            {"id": "d", "text": "The hardware wallet automatically empties"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "This is why separation matters. Different wallets have different keys. A hacker who gets into your phone wallet can only steal what's in that wallet. Your hardware wallet has completely different keys they don't have access to."
+        },
+        {
+          "id": "m3-q10",
+          "question": "What should you do when you first set up a new wallet?",
+          "options": [
+            {"id": "a", "text": "Immediately deposit all your crypto"},
+            {"id": "b", "text": "Write down and safely store your seed phrase, then verify it by restoring the wallet"},
+            {"id": "c", "text": "Share the address on social media"},
+            {"id": "d", "text": "Skip the seed phrase backup - you can do it later"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "First, write down your seed phrase and store it safely. Then test it: delete the wallet and restore using the seed phrase. This confirms you wrote it correctly before adding any funds. Doing this later might mean losing funds."
+        },
+        {
+          "id": "m3-q11",
+          "question": "What is 'custodial' vs 'non-custodial' wallet?",
+          "options": [
+            {"id": "a", "text": "Custodial is for parents, non-custodial is for adults"},
+            {"id": "b", "text": "Custodial: someone else holds your keys. Non-custodial: you hold your own keys."},
+            {"id": "c", "text": "Custodial has customer support, non-custodial doesn't"},
+            {"id": "d", "text": "There's no difference"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Custodial wallets (like exchange accounts) mean someone else controls your keys - convenient but you trust them. Non-custodial wallets mean you control your keys - more responsibility but true ownership."
+        },
+        {
+          "id": "m3-q12",
+          "question": "What does 'two-factor authentication' (2FA) protect?",
+          "options": [
+            {"id": "a", "text": "Your crypto from price drops"},
+            {"id": "b", "text": "Your account by requiring a second verification step beyond just password"},
+            {"id": "c", "text": "Your seed phrase"},
+            {"id": "d", "text": "Your internet connection"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "2FA adds a second layer: something you know (password) plus something you have (phone app code). Even if someone learns your password, they can't log in without also having your phone. Essential for exchange accounts."
+        },
+        {
+          "id": "m3-q13",
+          "question": "Which 2FA method is considered most secure?",
+          "options": [
+            {"id": "a", "text": "SMS text message codes"},
+            {"id": "b", "text": "Authenticator apps (like Google Authenticator) or hardware security keys"},
+            {"id": "c", "text": "Email codes"},
+            {"id": "d", "text": "No 2FA is best for convenience"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "SMS can be intercepted through SIM swapping attacks. Authenticator apps (Google Authenticator, Authy) are more secure because codes are generated locally. Hardware keys (YubiKey) are even better. Never rely on SMS alone."
+        },
+        {
+          "id": "m3-q14",
+          "question": "What's the risk of keeping large amounts on a centralized exchange long-term?",
+          "options": [
+            {"id": "a", "text": "No risk - exchanges are perfectly safe"},
+            {"id": "b", "text": "Exchange hacks, bankruptcy, account freezes, or regulatory issues could cause you to lose access"},
+            {"id": "c", "text": "Your crypto might grow too fast"},
+            {"id": "d", "text": "Interest rates are too high"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "History has shown exchanges can be hacked (Mt. Gox, many others), go bankrupt (FTX), or freeze accounts. 'Not your keys, not your coins.' Keep only trading amounts on exchanges; move savings to self-custody."
+        },
+        {
+          "id": "m3-q15",
+          "question": "What is a good rule of thumb for how much crypto to keep in hot wallets?",
+          "options": [
+            {"id": "a", "text": "100% of your holdings"},
+            {"id": "b", "text": "Only as much as you'd be willing to lose, like cash in your everyday wallet"},
+            {"id": "c", "text": "At least 90% of your holdings"},
+            {"id": "d", "text": "Zero - never use hot wallets"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Hot wallets are like physical wallets - keep spending money there, not your life savings. Store only what you need for regular use. Anything you'd be upset to lose should be in more secure cold storage."
+        }
+      ]
+    }
+  ]
+}

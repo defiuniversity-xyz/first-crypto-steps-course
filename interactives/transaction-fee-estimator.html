@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction Fee Estimator | DeFi University</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <script type="module">
+        import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js';
+        import { getAuth, onAuthStateChanged } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js';
+        const firebaseConfig = { apiKey: "AIzaSyDuGdDF6jYPcZbQTpbGZPwnl3Qynr-LMWc", authDomain: "defi-university-prod.firebaseapp.com", projectId: "defi-university-prod", storageBucket: "defi-university-prod.firebasestorage.app", messagingSenderId: "309871336262", appId: "1:309871336262:web:d2dc4be5729ac1d5a6a347" };
+        const app = initializeApp(firebaseConfig);
+        const auth = getAuth(app);
+        let userToken = null; let tracked = false;
+        onAuthStateChanged(auth, async (user) => {
+            if (user) { userToken = await user.getIdToken(); document.getElementById('login-prompt').classList.add('hidden'); document.getElementById('loading-state').classList.add('hidden'); document.getElementById('tool-container').classList.remove('hidden'); }
+            else { document.getElementById('loading-state').classList.add('hidden'); document.getElementById('login-prompt').classList.remove('hidden'); const currentUrl = encodeURIComponent(window.location.href); document.querySelector('#login-prompt a').href = `/login.html?redirect=${currentUrl}`; }
+        });
+        window.trackInteraction = async function() { if (!tracked && userToken) { tracked = true; try { await fetch('https://api.defiuniversity.xyz/api/progress/interaction', { method: 'POST', headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${userToken}` }, body: JSON.stringify({ courseId: 'first-crypto-steps', interactionId: 'transaction-fee-estimator', type: 'calculator' }) }); document.getElementById('points-badge').classList.remove('hidden'); setTimeout(() => document.getElementById('points-badge').classList.add('hidden'), 2500); } catch (e) { tracked = false; } } };
+    </script>
+    <style>body { font-family: 'Inter', sans-serif; } h1, h2, h3, .brand-font { font-family: 'Space Grotesk', sans-serif; }</style>
+</head>
+<body class="bg-white text-neutral-900 min-h-screen p-4 md:p-8">
+    <div id="loading-state" class="flex items-center justify-center min-h-[400px]"><div class="text-center"><div class="w-8 h-8 border-2 border-blue-600 border-t-transparent rounded-full animate-spin mx-auto mb-4"></div><p class="text-neutral-500">Loading...</p></div></div>
+    <div id="login-prompt" class="hidden max-w-md mx-auto text-center py-12"><div class="w-16 h-16 bg-blue-50 rounded-full flex items-center justify-center mx-auto mb-4"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="text-blue-600"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg></div><h2 class="text-xl font-semibold mb-2 brand-font">Sign in Required</h2><p class="text-neutral-500 mb-6">Please sign in to use this tool.</p><a href="/login.html" class="px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold">Sign In</a></div>
+    
+    <div id="tool-container" class="hidden max-w-2xl mx-auto">
+        <div id="points-badge" class="hidden fixed top-4 right-4 bg-green-50 border border-green-200 text-green-600 px-4 py-2 rounded-full text-sm font-semibold z-50">+25 points earned!</div>
+        <div class="text-center mb-8"><h1 class="text-2xl md:text-3xl font-semibold brand-font mb-2">Transaction Fee Estimator</h1><p class="text-neutral-500">Estimate fees for different networks and transaction types</p></div>
+        
+        <div class="bg-white border border-neutral-200 rounded-xl p-6 shadow-sm space-y-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div><label class="block text-sm font-medium text-neutral-700 mb-2">Network</label>
+                    <select id="network" onchange="estimate()" class="w-full px-4 py-3 border border-neutral-200 rounded-lg">
+                        <option value="ethereum">Ethereum Mainnet</option>
+                        <option value="arbitrum">Arbitrum</option>
+                        <option value="polygon">Polygon</option>
+                        <option value="optimism">Optimism</option>
+                        <option value="bitcoin">Bitcoin</option>
+                        <option value="solana">Solana</option>
+                    </select>
+                </div>
+                <div><label class="block text-sm font-medium text-neutral-700 mb-2">Transaction Type</label>
+                    <select id="txtype" onchange="estimate()" class="w-full px-4 py-3 border border-neutral-200 rounded-lg">
+                        <option value="transfer">Simple Transfer</option>
+                        <option value="swap">Token Swap</option>
+                        <option value="nft">NFT Mint/Transfer</option>
+                        <option value="defi">DeFi Interaction</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div><label class="block text-sm font-medium text-neutral-700 mb-2">Network Congestion</label>
+                <select id="congestion" onchange="estimate()" class="w-full px-4 py-3 border border-neutral-200 rounded-lg">
+                    <option value="low">Low - Off-peak hours</option>
+                    <option value="normal" selected>Normal - Average day</option>
+                    <option value="high">High - Busy period</option>
+                    <option value="extreme">Extreme - NFT drop/market crash</option>
+                </select>
+            </div>
+            
+            <div id="results" class="space-y-4">
+                <div class="grid grid-cols-3 gap-3">
+                    <div class="bg-green-50 border border-green-200 rounded-lg p-3 text-center"><p class="text-xs text-green-600">Slow</p><p id="fee-slow" class="text-lg font-bold text-green-700">-</p><p id="time-slow" class="text-xs text-green-600">-</p></div>
+                    <div class="bg-blue-50 border border-blue-200 rounded-lg p-3 text-center"><p class="text-xs text-blue-600">Normal</p><p id="fee-normal" class="text-lg font-bold text-blue-700">-</p><p id="time-normal" class="text-xs text-blue-600">-</p></div>
+                    <div class="bg-orange-50 border border-orange-200 rounded-lg p-3 text-center"><p class="text-xs text-orange-600">Fast</p><p id="fee-fast" class="text-lg font-bold text-orange-700">-</p><p id="time-fast" class="text-xs text-orange-600">-</p></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="mt-6 bg-amber-50 border border-amber-200 rounded-lg p-4"><p class="text-sm font-medium text-amber-700 mb-1">Tip</p><p id="insight" class="text-sm text-amber-600">Select your network and transaction type to see estimated fees. Layer 2 networks like Arbitrum and Polygon offer much lower fees than Ethereum mainnet!</p></div>
+    </div>
+
+    <script>
+        const feeData = {
+            ethereum: { base: 3, multipliers: { transfer: 1, swap: 2.5, nft: 3, defi: 4 }, times: ['10-30 min', '2-5 min', '< 1 min'] },
+            arbitrum: { base: 0.15, multipliers: { transfer: 1, swap: 2, nft: 2.5, defi: 3 }, times: ['2-5 min', '30 sec', '< 15 sec'] },
+            polygon: { base: 0.01, multipliers: { transfer: 1, swap: 2, nft: 2.5, defi: 3 }, times: ['2-5 min', '30 sec', '< 15 sec'] },
+            optimism: { base: 0.12, multipliers: { transfer: 1, swap: 2, nft: 2.5, defi: 3 }, times: ['2-5 min', '30 sec', '< 15 sec'] },
+            bitcoin: { base: 2, multipliers: { transfer: 1, swap: 1, nft: 1, defi: 1 }, times: ['60+ min', '30-60 min', '10-30 min'] },
+            solana: { base: 0.0025, multipliers: { transfer: 1, swap: 1.5, nft: 2, defi: 2.5 }, times: ['< 30 sec', '< 10 sec', '< 5 sec'] }
+        };
+        const congestionMultipliers = { low: 0.5, normal: 1, high: 2.5, extreme: 10 };
+        
+        function estimate() {
+            const network = document.getElementById('network').value;
+            const txtype = document.getElementById('txtype').value;
+            const congestion = document.getElementById('congestion').value;
+            const data = feeData[network];
+            const baseFee = data.base * data.multipliers[txtype] * congestionMultipliers[congestion];
+            
+            document.getElementById('fee-slow').textContent = '$' + (baseFee * 0.7).toFixed(2);
+            document.getElementById('fee-normal').textContent = '$' + baseFee.toFixed(2);
+            document.getElementById('fee-fast').textContent = '$' + (baseFee * 1.5).toFixed(2);
+            document.getElementById('time-slow').textContent = data.times[0];
+            document.getElementById('time-normal').textContent = data.times[1];
+            document.getElementById('time-fast').textContent = data.times[2];
+            
+            let tip = '';
+            if (network === 'ethereum' && congestion === 'extreme') tip = 'During extreme congestion, Ethereum fees can reach $50-100+! Consider using Layer 2 networks like Arbitrum or Polygon for 90%+ savings.';
+            else if (network === 'polygon' || network === 'arbitrum') tip = 'Layer 2 networks offer dramatically lower fees while still settling to Ethereum. Great for frequent transactions!';
+            else if (network === 'solana') tip = 'Solana has some of the lowest fees in crypto - fractions of a penny for most transactions.';
+            else if (txtype === 'defi') tip = 'DeFi interactions are complex and use more computational resources, so they cost more than simple transfers.';
+            else tip = 'These are estimates based on typical conditions. Actual fees depend on real-time network demand.';
+            document.getElementById('insight').textContent = tip;
+            
+            window.trackInteraction();
+        }
+        estimate();
+    </script>
+</body>
+</html>
