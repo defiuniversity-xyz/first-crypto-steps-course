@@ -1,4 +1,16 @@
-# Your First Send Transaction
+---
+module: 2
+lesson_number: 8
+course: first-crypto-steps
+---
+
+## 🎧 Lesson Podcast
+{% embed url="https://storage.googleapis.com/first-crypto-steps-media/lesson-08/audio/lesson8%20Mastering_the_Art_of_Sending_Crypto.m4a" %}
+
+## 🎬 Video Overview
+{% embed url="https://storage.googleapis.com/first-crypto-steps-media/lesson-08/video/lesson8%20Mastering_Your_First_Send.mp4" %}
+
+# Lesson 8: Your First Send Transaction
 
 ![Header](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_08/first-crypto-steps_08_header.png)
 
@@ -8,6 +20,8 @@
 ---
 
 ## Mailing a Package with Tracking
+![Inline Analogy](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_08/first-crypto-steps_08_inline_analogy.png)
+
 
 When you ship something valuable:
 1. Pack it carefully
@@ -30,6 +44,8 @@ The difference: no undo. If you ship to the wrong address with FedEx, you might 
 ---
 
 ## Before You Send: Preparation Checklist
+![Infographic](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_08/first-crypto-steps_08_infographic.png)
+
 
 Before initiating any transaction, verify:
 

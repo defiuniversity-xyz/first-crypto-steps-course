@@ -1,4 +1,16 @@
-# Setting Up Your Own Wallet
+---
+module: 3
+lesson_number: 10
+course: first-crypto-steps
+---
+
+## 🎧 Lesson Podcast
+{% embed url="https://storage.googleapis.com/first-crypto-steps-media/lesson-10/audio/lesson10%20Becoming_Your_Own_Bank_With_Crypto_Wallets.m4a" %}
+
+## 🎬 Video Overview
+{% embed url="https://storage.googleapis.com/first-crypto-steps-media/lesson-10/video/lesson10%20Wallet_Setup_%26_Security.mp4" %}
+
+# Lesson 10: Setting Up Your Own Wallet
 
 ![Header](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_10/first-crypto-steps_10_header.png)
 
@@ -8,6 +20,8 @@
 ---
 
 ## Setting Up a New Mailbox
+![Inline Analogy](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_10/first-crypto-steps_10_inline_analogy.png)
+
 
 When you move somewhere new:
 1. Get a mailbox (physical infrastructure)
@@ -24,6 +38,8 @@ Setting up a crypto wallet follows similar steps:
 ---
 
 ## Choosing Your First Wallet
+![Infographic](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_10/first-crypto-steps_10_infographic.png)
+
 
 For beginners, start with a reputable hot wallet:
 

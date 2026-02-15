@@ -1,4 +1,16 @@
-# Your First Purchase
+---
+module: 1
+lesson_number: 3
+course: first-crypto-steps
+---
+
+## 🎧 Lesson Podcast
+{% embed url="https://storage.googleapis.com/first-crypto-steps-media/lesson-03/audio/lesson3%20Avoid_The_Crypto_Convenience_Tax.m4a" %}
+
+## 🎬 Video Overview
+{% embed url="https://storage.googleapis.com/first-crypto-steps-media/lesson-03/video/lesson3%20Your_First_Crypto_Purchase.mp4" %}
+
+# Lesson 3: Your First Purchase
 
 ![Header](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_03/first-crypto-steps_03_header.png)
 
@@ -8,6 +20,8 @@
 ---
 
 ## Buying Foreign Currency for a Trip
+![Inline Analogy](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_03/first-crypto-steps_03_inline_analogy.png)
+
 
 Planning a trip abroad, you might:
 
@@ -30,6 +44,8 @@ Buying cryptocurrency follows the same basic flow:
 ---
 
 ## Step-by-Step: Making Your First Purchase
+![Infographic](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_03/first-crypto-steps_03_infographic.png)
+
 
 Assuming you're using a centralized exchange and have completed verification:
 

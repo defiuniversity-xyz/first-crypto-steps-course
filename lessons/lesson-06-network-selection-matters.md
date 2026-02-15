@@ -1,4 +1,16 @@
-# Network Selection Matters
+---
+module: 2
+lesson_number: 6
+course: first-crypto-steps
+---
+
+## 🎧 Lesson Podcast
+{% embed url="https://storage.googleapis.com/first-crypto-steps-media/lesson-06/audio/lesson6%20Don_t_Lose_Crypto_to_the_Wrong_Network.m4a" %}
+
+## 🎬 Video Overview
+{% embed url="https://storage.googleapis.com/first-crypto-steps-media/lesson-06/video/lesson6%20Choosing_the_Right_Crypto_Network.mp4" %}
+
+# Lesson 6: Network Selection Matters
 
 ![Header](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_06/first-crypto-steps_06_header.png)
 
@@ -8,6 +20,8 @@
 ---
 
 ## Choosing the Right Delivery Service
+![Inline Analogy](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_06/first-crypto-steps_06_inline_analogy.png)
+
 
 You want to ship a package. You can choose:
 - **FedEx** (fast, works everywhere in their network)
@@ -21,6 +35,8 @@ Blockchain networks work similarly. A transaction on Ethereum only arrives at Et
 ---
 
 ## The Same Token, Different Networks
+![Infographic](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_06/first-crypto-steps_06_infographic.png)
+
 
 Here's where confusion happens:
 

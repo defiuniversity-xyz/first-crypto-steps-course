@@ -1,4 +1,16 @@
-# Exchange Wallets vs Your Own
+---
+module: 1
+lesson_number: 4
+course: first-crypto-steps
+---
+
+## 🎧 Lesson Podcast
+{% embed url="https://storage.googleapis.com/first-crypto-steps-media/lesson-04/audio/lesson4%20The_Illusion_of_Owning_Crypto_on_Exchanges.m4a" %}
+
+## 🎬 Video Overview
+{% embed url="https://storage.googleapis.com/first-crypto-steps-media/lesson-04/video/lesson4%20Crypto_Custody.mp4" %}
+
+# Lesson 4: Exchange Wallets vs Your Own
 
 ![Header](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_04/first-crypto-steps_04_header.png)
 
@@ -8,6 +20,8 @@
 ---
 
 ## Coat Check vs. Your Own Closet
+![Inline Analogy](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_04/first-crypto-steps_04_inline_analogy.png)
+
 
 At a fancy restaurant:
 
@@ -20,6 +34,8 @@ Exchange wallets are like coat check—convenient but custodial. Your own wallet
 ---
 
 ## What "Your Crypto on an Exchange" Really Means
+![Infographic](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_04/first-crypto-steps_04_infographic.png)
+
 
 When you buy crypto on an exchange and leave it there:
 

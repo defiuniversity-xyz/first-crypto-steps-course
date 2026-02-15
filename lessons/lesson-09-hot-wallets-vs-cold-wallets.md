@@ -1,4 +1,16 @@
-# Hot Wallets vs Cold Wallets
+---
+module: 3
+lesson_number: 9
+course: first-crypto-steps
+---
+
+## 🎧 Lesson Podcast
+{% embed url="https://storage.googleapis.com/first-crypto-steps-media/lesson-09/audio/lesson9%20Hot_Wallets_vs_Cold_Storage_Strategies.m4a" %}
+
+## 🎬 Video Overview
+{% embed url="https://storage.googleapis.com/first-crypto-steps-media/lesson-09/video/lesson9%20Crypto_Wallets__Staying_Safe.mp4" %}
+
+# Lesson 9: Hot Wallets vs Cold Wallets
 
 ![Header](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_09/first-crypto-steps_09_header.png)
 
@@ -8,6 +20,8 @@
 ---
 
 ## Checking vs. Savings Account Mindset
+![Inline Analogy](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_09/first-crypto-steps_09_inline_analogy.png)
+
 
 In traditional finance, you might have:
 
@@ -24,6 +38,8 @@ Crypto storage follows similar logic:
 ---
 
 ## Hot Wallets: Convenient but Connected
+![Infographic](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_09/first-crypto-steps_09_infographic.png)
+
 
 **What they are:**
 Wallet software running on internet-connected devices—your phone, computer, or browser.

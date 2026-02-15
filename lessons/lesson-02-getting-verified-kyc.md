@@ -1,4 +1,16 @@
-# Getting Verified (KYC)
+---
+module: 1
+lesson_number: 2
+course: first-crypto-steps
+---
+
+## 🎧 Lesson Podcast
+{% embed url="https://storage.googleapis.com/first-crypto-steps-media/lesson-02/audio/lesson2%20Why_Crypto_Exchanges_Demand_Your_Passport.m4a" %}
+
+## 🎬 Video Overview
+{% embed url="https://storage.googleapis.com/first-crypto-steps-media/lesson-02/video/lesson2%20Crypto_ID_Check__KYC_Guide.mp4" %}
+
+# Lesson 2: Getting Verified KYC
 
 ![Header](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_02/first-crypto-steps_02_header.png)
 
@@ -8,6 +20,8 @@
 ---
 
 ## Showing ID to Open a Bank Account
+![Inline Analogy](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_02/first-crypto-steps_02_inline_analogy.png)
+
 
 Remember opening your first bank account? You probably needed:
 - Government-issued ID
@@ -22,6 +36,8 @@ Cryptocurrency exchanges face similar requirements. "KYC" (Know Your Customer) a
 ---
 
 ## What You'll Typically Need
+![Infographic](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_02/first-crypto-steps_02_infographic.png)
+
 
 Centralized exchange verification usually requires:
 

@@ -1,4 +1,16 @@
-# What Are Gas Fees?
+---
+module: 2
+lesson_number: 7
+course: first-crypto-steps
+---
+
+## 🎧 Lesson Podcast
+{% embed url="https://storage.googleapis.com/first-crypto-steps-media/lesson-07/audio/lesson7%20Stop_Overpaying_For_Crypto_Gas_Fees.m4a" %}
+
+## 🎬 Video Overview
+{% embed url="https://storage.googleapis.com/first-crypto-steps-media/lesson-07/video/lesson7%20Demystifying_Gas_Fees.mp4" %}
+
+# Lesson 7: What Are Gas Fees
 
 ![Header](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_07/first-crypto-steps_07_header.png)
 
@@ -8,6 +20,8 @@
 ---
 
 ## Postage Stamps for Transactions
+![Inline Analogy](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_07/first-crypto-steps_07_inline_analogy.png)
+
 
 When you mail a letter:
 - You buy a stamp based on size/weight
@@ -24,6 +38,8 @@ The name "gas" comes from the idea of fuel—like paying for gasoline to move yo
 ---
 
 ## Why Gas Fees Exist
+![Infographic](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_07/first-crypto-steps_07_infographic.png)
+
 
 Blockchain processing isn't free. Fees serve several purposes:
 

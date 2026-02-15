@@ -1,4 +1,16 @@
-# Backing Up Your Wallet
+---
+module: 3
+lesson_number: 11
+course: first-crypto-steps
+---
+
+## 🎧 Lesson Podcast
+{% embed url="https://storage.googleapis.com/first-crypto-steps-media/lesson-11/audio/lesson11%20Fireproof_Your_Seed_Phrase_On_Metal.m4a" %}
+
+## 🎬 Video Overview
+{% embed url="https://storage.googleapis.com/first-crypto-steps-media/lesson-11/video/lesson11%20Crypto_s_Digital_Lifeline.mp4" %}
+
+# Lesson 11: Backing Up Your Wallet
 
 ![Header](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_11/first-crypto-steps_11_header.png)
 
@@ -8,6 +20,8 @@
 ---
 
 ## Making Copies of Your House Key
+![Inline Analogy](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_11/first-crypto-steps_11_inline_analogy.png)
+
 
 You probably have spare house keys:
 - One in your wallet
@@ -26,6 +40,8 @@ The difference: lose all copies of your house key, you can call a locksmith. Los
 ---
 
 ## What You're Actually Backing Up
+![Infographic](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_11/first-crypto-steps_11_infographic.png)
+
 
 **The seed phrase is the backup.**
 

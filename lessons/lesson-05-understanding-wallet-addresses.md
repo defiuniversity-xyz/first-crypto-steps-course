@@ -1,4 +1,16 @@
-# Understanding Wallet Addresses
+---
+module: 2
+lesson_number: 5
+course: first-crypto-steps
+---
+
+## 🎧 Lesson Podcast
+{% embed url="https://storage.googleapis.com/first-crypto-steps-media/lesson-05/audio/lesson5%20Wallet_Address_Anatomy_and_Poisoning_Attacks.m4a" %}
+
+## 🎬 Video Overview
+{% embed url="https://storage.googleapis.com/first-crypto-steps-media/lesson-05/video/lesson5%20Mastering_Crypto_Addresses.mp4" %}
+
+# Lesson 5: Understanding Wallet Addresses
 
 ![Header](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_05/first-crypto-steps_05_header.png)
 
@@ -8,6 +20,8 @@
 ---
 
 ## Mailing Address for Money
+![Inline Analogy](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_05/first-crypto-steps_05_inline_analogy.png)
+
 
 When you mail a letter, you write the address carefully:
 - Street number and name
@@ -26,6 +40,8 @@ The stakes are higher than letters: send crypto to a wrong address and it's usua
 ---
 
 ## What Addresses Look Like
+![Infographic](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_05/first-crypto-steps_05_infographic.png)
+
 
 Different blockchains have different address formats:
 

@@ -1,4 +1,16 @@
-# Moving Crypto Off an Exchange
+---
+module: 3
+lesson_number: 12
+course: first-crypto-steps
+---
+
+## 🎧 Lesson Podcast
+{% embed url="https://storage.googleapis.com/first-crypto-steps-media/lesson-12/audio/lesson12%20Safely_Withdraw_Crypto_to_Self-Custody.m4a" %}
+
+## 🎬 Video Overview
+{% embed url="https://storage.googleapis.com/first-crypto-steps-media/lesson-12/video/lesson12%20Sovereign_Key__Crypto_Home.mp4" %}
+
+# Lesson 12: Moving Crypto Off an Exchange
 
 ![Header](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_12/first-crypto-steps_12_header.png)
 
@@ -8,6 +20,8 @@
 ---
 
 ## Bank to Home Safe
+![Inline Analogy](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_12/first-crypto-steps_12_inline_analogy.png)
+
 
 Imagine you've stored jewelry at the bank's safe deposit box:
 - Convenient—they handle security
@@ -24,6 +38,8 @@ Moving crypto off exchange follows similar logic: you're taking control but also
 ---
 
 ## Why Move to Your Own Wallet
+![Infographic](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_12/first-crypto-steps_12_infographic.png)
+
 
 **Reasons to withdraw:**
 

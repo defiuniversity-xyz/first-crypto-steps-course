@@ -1,4 +1,16 @@
-# What is a Crypto Exchange?
+---
+module: 1
+lesson_number: 1
+course: first-crypto-steps
+---
+
+## 🎧 Lesson Podcast
+{% embed url="https://storage.googleapis.com/first-crypto-steps-media/lesson-01/audio/lesson1%20Crypto_exchanges_are_gateways_not_banks.m4a" %}
+
+## 🎬 Video Overview
+{% embed url="https://storage.googleapis.com/first-crypto-steps-media/lesson-01/video/lesson1%20What_is_a_Crypto_Exchange_.mp4" %}
+
+# Lesson 1: What is a Crypto Exchange?
 
 ![Header](https://storage.googleapis.com/first-crypto-steps-media/images/lesson_01/first-crypto-steps_01_header.png)
 
